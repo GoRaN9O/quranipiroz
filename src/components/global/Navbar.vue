@@ -2,18 +2,12 @@
     <nav class="navbar_container white">
     <div class="nav-wrapper">
       <router-link to="/" class="brand-logo blue-text">{{ $t('logo') }}</router-link>
-      <ul class="center">
-        <li><a href="javascript:;" class="blue-text dropdown-trigger" data-target='dropdown1'><i class="material-icons">settings_brightness</i></a></li>
-
-        </ul>
-      </ul>
-    </div>
-  </div>
-
-
       <ul class="right">
         <li><a href="javascript:;" @click="toggleMenu" class="blue-text"><i class="material-icons">menu</i></a></li>
         <!-- Dropdown Structure -->
+
+        <li><a href="javascript:;" class="blue-text dropdown-trigger" data-target='dropdown1'><i class="material-icons">settings_brightness</i></a></li>
+
         <ul id='dropdown1' class='dropdown-content'>
            <li><a href="#!" class="blue-text">English</a></li>
           <li><a href="#!" class="blue-text">کوردی</a></li>
