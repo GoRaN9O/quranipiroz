@@ -17,7 +17,7 @@
               </div>
               <div class="details">
                 <span>{{ reciter.count}}</span>
-                <span>سورەتەکان</span>
+                <span>سورەت</span>
               </div>
               <div class="details">
                 <span>شێوازی خوێندنەوە:</span>
