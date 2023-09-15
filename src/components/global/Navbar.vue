@@ -9,7 +9,7 @@
       </ul>
     </div>
   </nav>
-</template>
+
 
       <ul class="right">
         <li><a href="javascript:;" @click="toggleMenu" class="blue-text"><i class="material-icons">menu</i></a></li>
