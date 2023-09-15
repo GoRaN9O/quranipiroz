@@ -2,7 +2,7 @@
     <nav class="navbar_container white">
     <div class="nav-wrapper">
       <router-link to="/" class="brand-logo blue-text">{{ $t('logo') }}</router-link>
-      <ul class="left">
+      <ul class="center">
         <li><a href="javascript:;" class="blue-text dropdown-trigger" data-target='dropdown1'><i class="material-icons">settings_brightness</i></a></li>
 
         </ul>
