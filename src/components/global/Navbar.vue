@@ -8,7 +8,7 @@
         </ul>
       </ul>
     </div>
-  </nav>
+  </div>
 
 
       <ul class="right">
