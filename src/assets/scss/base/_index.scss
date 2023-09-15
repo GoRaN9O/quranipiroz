@@ -314,7 +314,7 @@ body {
   }
 
   .plyr--audio .plyr__control[data-plyr="play"],
-  .plyr--audio .plyr__control[data-plyr="settings"]:first-child,
+  .plyr--audio .plyr__control[data-plyr="settings"],
   .plyr--audio .plyr__control[data-plyr="mute"] {
     border-radius: 50%;
     background-color: #fff;
@@ -452,7 +452,7 @@ body.dark {
   }
 
   .plyr--audio .plyr__control[data-plyr="play"],
-  .plyr--audio .plyr__control[data-plyr="settings"]:first-child,
+  .plyr--audio .plyr__control[data-plyr="settings"],
   .plyr--audio .plyr__control[data-plyr="mute"] {
     background-color: $dark_bg;
     color: #fff;

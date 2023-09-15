@@ -3,7 +3,7 @@
     <search />
     <div class="section_content" v-if="!logged">
           <div class="no_login_msg">
-            پێویستە سەرەتا خۆت تۆمار بکەیت! 
+            پێویستە سەرەتا خۆت تۆمار بکەیت 
           </div>
     </div>
     <div class="section_content"  v-if="logged">
