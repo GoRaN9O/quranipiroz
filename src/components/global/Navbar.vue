@@ -4,7 +4,7 @@
       <router-link to="/" class="brand-logo blue-text">{{ $t('logo') }}</router-link>
       <ul class="right">
         <li><a href="javascript:;" @click="toggleMenu" class="blue-text"><i class="material-icons">menu</i></a></li>
-        <li><a href="javascript:;" class="blue-text dropdown-trigger" data-target='dropdown1'><i class="material-icons">more_vert</i></a></li>
+        <li><a href="javascript:;" class="blue-text dropdown-trigger" data-target='dropdown1'><i class="material-icons">settings_brightness</i></a></li>
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
           <!-- <li><a href="#!" class="blue-text">English</a></li>
