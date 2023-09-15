@@ -3,7 +3,7 @@
     <simplebar class="fixed-sidebar" :class="{ menu: menu }" data-simplebar-auto-hide="true">
       <div class="menu_wraper">
         <router-link to="/" exact class="btn_style">
-          <span>جميع القرّاء</span>
+          <span>سەرجەم قورئانخوێنەکان</span>
           <span class="btn_icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@
           </span>
         </router-link>
         <router-link to="/live" class="btn_style">
-          <span>البث المباشر</span>
+          <span>ڕادیۆیی ڕاستەوخۆ</span>
           <span class="btn_icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@
           </span>
         </router-link>
         <router-link to="/favorite" class="btn_style">
-          <span> القرّاء المفضلون</span>
+          <span> قورئانخوێنە دڵخوازەکان</span>
           <span class="btn_icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@
           </span>
         </router-link>
         <router-link to="/playlist" class="btn_style">
-          <span>قائمة الانتظار</span>
+          <span>لیستی دواخراو</span>
           <span class="btn_icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@
           <a
             href="#login"
             class="btn_login modal-trigger"  v-if="!logged">
-            <span>تسجيل الدخول</span>
+            <span>چوونەژوورەوە</span>
             <span class="btn_icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@
             </span>
           </a>
           <a href="#register" class="btn_login modal-trigger" v-if="!logged">
-            <span>حساب جديد</span>
+            <span>خۆ تۆمارکردن</span>
             <span class="btn_icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -176,10 +176,10 @@
               d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
             ></path>
           </svg>
-          by <a href="https://www.linkedin.com/in/redaawwad/" target="_blank">Reda Awaad</a> | {{ year }}
+          by <a href="https://www.linkedin.com/in/redaawwad/" target="_blank">GoRaN</a> | {{ year }}
         </small>
         <small>
-          نسألكم الدعاء لوالديَ
+          لە دۆعای خێر بێبەشمان مەکەن
         </small>
       </div>
     </simplebar>

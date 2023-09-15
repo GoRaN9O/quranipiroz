@@ -1,7 +1,7 @@
 <template>
   <form class="search_form">
     <div class="input-field">
-      <input id="search" v-model="search" @keyup="updateSearch()" type="search" placeholder="بحث">
+      <input id="search" v-model="search" @keyup="updateSearch()" type="search" placeholder="گەڕان">
       <label class="label-icon" for="search"><i class="material-icons">search</i></label>
       <i class="material-icons">close</i>
     </div>

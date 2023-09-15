@@ -17,10 +17,10 @@
               </div>
               <div class="details">
                 <span>{{ reciter.count}}</span>
-                <span>سورة</span>
+                <span>سورەتەکان</span>
               </div>
               <div class="details">
-                <span>رواية:</span>
+                <span>شێوازی خوێندنەوە:</span>
                 <span>{{ reciter.rewaya }}</span>
               </div>
             </div>

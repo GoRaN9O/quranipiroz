@@ -8,10 +8,10 @@
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
           <!-- <li><a href="#!" class="blue-text">English</a></li>
-          <li><a href="#!" class="blue-text">عربى</a></li>
+          <li><a href="#!" class="blue-text">کوردی</a></li>
           <li class="divider" tabindex="-1"></li> -->
-          <li @click="changeTheme('light')"><a href="javascript: ;" class="blue-text">ساطع</a></li>
-          <li @click="changeTheme('dark')"><a href="javascript: ;" class="black-text">غامق</a></li>
+          <li @click="changeTheme('light')"><a href="javascript: ;" class="blue-text">ڕووناک</a></li>
+          <li @click="changeTheme('dark')"><a href="javascript: ;" class="black-text">تاریک</a></li>
         </ul>
       </ul>
     </div>

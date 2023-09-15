@@ -3,12 +3,12 @@
     <search />
     <div class="section_content" v-if="!logged">
           <div class="no_login_msg">
-            يجب تسجيل الدخول أولا 
+            پێویستە سەرەتا خۆت تۆمار بکەیت! 
           </div>
     </div>
     <div class="section_content"  v-if="logged">
           <div class="no_login_msg">
-            لا توجد نتائج
+            هیچ شتێک بەردەست نییە
           </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div id="login" class="modal">
     <div class="modal-content">
-      <h6 class="modal-title">الدخول إلى حسابى</h6>
+      <h6 class="modal-title">چوونەژوورەوە</h6>
       <div class="row">
         <form class="col s12" @submit.prevent="login()">
           <div class="row">
@@ -16,7 +16,7 @@
                 v-model="email"
                 @focus="resetLoginError()"
               />
-              <label for="icon_prefix">الأيميل</label>
+              <label for="icon_prefix">پۆستی ئەلکترۆنی</label>
               <span class="helper-text red-text">{{ emailError.msg }}</span>
             </div>
             <div class="input-field col m6">
@@ -30,7 +30,7 @@
                 v-model="password"
                 @focus="resetLoginError()"
               />
-              <label for="icon_telephone">كلمة المرور</label>
+              <label for="icon_telephone">تێپەڕە ووشە</label>
               <span class="helper-text red-text">{{ passError.msg }}</span>
             </div>
             <div class="col s12">
@@ -51,7 +51,7 @@
         href="javascript:;"
         @click="resetInputs()"
         class="modal-close waves-effect blue-text waves-green btn-flat"
-        >إغلاق</a
+        >داخستن</a
       >
     </div>
   </div>
@@ -84,7 +84,7 @@ export default {
       if (!this.email) {
         this.emailError = {
           status: true,
-          msg: "هذا الحقل مطلوب",
+          msg: "ئەم بەشە داواکراوە",
         };
       } else {
         if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email)) {
@@ -95,7 +95,7 @@ export default {
         } else {
           this.emailError = {
             status: true,
-            msg: "أدخل ايميلا صحيحا",
+            msg: "ئیمەیڵێکی دروست بنووسە",
           };
         }
       }
@@ -104,7 +104,7 @@ export default {
       if (!this.password) {
         this.passError = {
           status: true,
-          msg: "أدخل كلمة المرور",
+          msg: "تێپەڕە ووشە بنووسە",
         };
       } else {
         this.passError = {
@@ -134,15 +134,15 @@ export default {
 
       //       this.$router.replace('/profile');
 
-      //       M.toast({html:   'تم تسجيل الدخول، أهلآ بك  ' });
+      //       M.toast({html:   'بەسەرکەوتوویی چوویتەژوور، بەخێربێیت  ' });
       //     })
       //     .catch((error) => {
       //       let errMsg = error.message;
 
       //       if (errMsg.match("no user record")) {
-      //         errMsg = "هذا المستخدم غير موجود";
+      //         errMsg = "ئەم بەکارهێنەرە بوونی نییە";
       //       } else if (errMsg.match("password is invalid")) {
-      //         errMsg = "كلمة المرور غير صحيحة";
+      //         errMsg = "تێپەڕە ووشە هەڵەیە";
       //       } 
 
       //       this.loginErrMsg = {

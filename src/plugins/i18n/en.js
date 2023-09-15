@@ -1,4 +1,4 @@
 export default {
-  logo: "Qurani",
-  info: ""
+  logo: "QuraniPiroz",
+  info: "Audio Files Was Taken From:"
 }
