@@ -8,8 +8,8 @@
         <li><a href="javascript:;" @click="toggleMenu" class="blue-text"><i class="material-icons">menu</i></a></li>
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
-           <li><a href="changeLanguage('en')" class="blue-text">English</a></li>
-          <li><a href="changeLanguage('ar')" class="blue-text">کوردی</a></li>
+           <li @click="changeLanguage('en')"><a href="javascript: ;" class="blue-text">English</a></li>
+          <li @click="changeLanguage('ar')"><a href="javascript: ;" class="blue-text">کوردی</a></li>
           <li class="divider" tabindex="-1"></li> 
           <li @click="changeTheme('light')"><a href="javascript: ;" class="blue-text">ڕووناک</a></li>
           <li @click="changeTheme('dark')"><a href="javascript: ;" class="black-text">تاریک</a></li>
