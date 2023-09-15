@@ -35,7 +35,7 @@
             </div>
             <div class="col s12">
               <button type="submit" :disabled="fetchingData" class="btn_style btn_login_modal">
-                تسجيل الدخول
+                چوونەژوورەوە
                 <div class="progress" v-if="fetchingData">
                     <div class="indeterminate"></div>
                 </div>
