@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   animation: fullScreen 0.5s ease-in-out;
-  background: url('@/assets/imgs/land2.jpg') no-repeat center;
+  background: url('@/assets/imgs/land.jpg') no-repeat center;
   background-size: cover;
   @keyframes fullScreen {
     from {
@@ -91,7 +91,7 @@ body.dark {
 
 	.player {
 		.player_cover {
-		background: url(@/assets/imgs/dark_player.png) no-repeat center center ;
+		background: url(@/assets/imgs/qq.jpg) no-repeat center center ;
 		background-size: cover;
 		  box-shadow: none  !important;
 		}
