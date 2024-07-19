@@ -80,7 +80,7 @@ export default {
     return {
       page_loaded: false,
       menu: true,
-      streamLink: "https://everyayah.com/data/Abdul_Basit_Murattal_192kbps/PageMp3s/Page001.mp3",
+      streamLink: "https://unmm.mnuu.nu/api/v1/download?sig=RYLXmSPjEufmNHhYbpSSVcmhMi8ohGuPOPb4F9pR3q8mfybPOvSRz2A89SiVbGGlNUrT4ZopjQTiUdD13BuVMcfFv4R2h9eOcBuRbpaeXenvZJOj73%2FKauE4djGzmXtoxtFGH7Z3f6kgXuqewvj0j7NcdRt%2B8wp7AoiIrOAuqH0h8cKHQTj1iEpg7AOeiNb8oE1VVUW8JGhBXibAIP7eUaFSWLWKAmtBOh62%2B3WRFFumdc3q42fSJytfzKE2OT21uZzYl1SLG%2BHoDKtcml3Q8vJS%2FKJQW2%2Bx3xyM47dWKghbnOLzzNuzuZh2%2F2J1qIr4MSa3L3gcsw7HaTuG9tI4xg%3D%3D",
       streamTitle: "الفاتحة",
       playing: true,
     };
