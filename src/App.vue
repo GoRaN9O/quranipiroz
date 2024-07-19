@@ -80,7 +80,7 @@ export default {
     return {
       page_loaded: false,
       menu: true,
-      streamLink: "https://server13.mp3quran.net/basit_mjwd/001.mp3",
+      streamLink: "https://everyayah.com/data/Abdul_Basit_Murattal_192kbps/PageMp3s/Page001.mp3",
       streamTitle: "الفاتحة",
       playing: true,
     };
