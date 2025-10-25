@@ -161,7 +161,7 @@
       <div class="footer">
         <small>
           Developed
-          by <a href="https://www.facebook.com/goran.gharib90/" target="_blank">GoRaN</a> | {{ year }}
+          by <a href="https://www.facebook.com/GoRaN9O/" target="_blank">GoRaN</a> | {{ year }}
         </small>
         <small>
           لە دۆعای خێر بێبەشمان مەکەن
