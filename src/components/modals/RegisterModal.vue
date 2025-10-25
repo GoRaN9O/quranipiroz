@@ -67,7 +67,7 @@
                 >
               </div>
               <div class="file-path-wrapper">
-                <input class="file-path validate" type="text" placeholder="وێنەی تایبەت بە خۆت دابنێ">
+                <input class="file-path validate" type="text" placeholder="وێنەی بەکارهێنەر">
               </div>
             </div>
             <div class="col s12">
